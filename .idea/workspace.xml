@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="Générations des URLs">
+    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="Dynamisation de la page d’accueil">
+      <change afterPath="$PROJECT_DIR$/public/css/extra.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tp-symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp-symfony.iml" afterDir="false" />
@@ -30,8 +31,11 @@
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/clean-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/clean-blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="getting-started" />
+        <entry key="$PROJECT_DIR$" value="twig" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,6 +133,10 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qHuxUJ5S9dZ3DKGm9fSu0DWOhI" />
@@ -138,11 +146,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -155,7 +164,7 @@
       <updated>1616749082288</updated>
       <workItem from="1616749083402" duration="413000" />
       <workItem from="1616749551312" duration="1820000" />
-      <workItem from="1616751488244" duration="3376000" />
+      <workItem from="1616751488244" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1616751514462</created>
@@ -178,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616755236709</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dynamisation de la page d’accueil">
+      <created>1616756689801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616756689801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,36 +215,41 @@
     <MESSAGE value="Getting started" />
     <MESSAGE value="twig - HomeController + import template" />
     <MESSAGE value="Générations des URLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Générations des URLs" />
+    <MESSAGE value="Dynamisation de la page d’accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamisation de la page d’accueil" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616756119512">
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616765355761">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616756119512" />
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616765355761" />
     <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616752995205">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.955@0.23.1680.955" timestamp="1616752995205" />
+    <state x="578" y="262" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616765265631">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="578" y="262" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.955@0.23.1680.955" timestamp="1616765265631" />
     <state x="659" y="431" key="NewPhpFileDialog" timestamp="1616755295454">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="659" y="431" key="NewPhpFileDialog/0.23.1680.955@0.23.1680.955" timestamp="1616755295454" />
-    <state x="341" y="139" key="SettingsEditor" timestamp="1616751466832">
+    <state x="341" y="139" key="SettingsEditor" timestamp="1616766059403">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616751466832" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1616756057449">
+    <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616766059403" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1616766742837">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616756057449" />
-    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616755239723">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616766742837" />
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616756691464">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616755239723" />
-    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616751461654">
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616756691464" />
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616766071901">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup/0.23.1680.955@0.23.1680.955" timestamp="1616751461654" />
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup/0.23.1680.955@0.23.1680.955" timestamp="1616766071901" />
   </component>
 </project>

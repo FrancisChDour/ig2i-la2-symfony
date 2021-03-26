@@ -43,7 +43,7 @@ class Article
     private $body;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text")
      */
     private $image;
 
