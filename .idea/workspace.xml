@@ -3,8 +3,38 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="" />
+    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp-symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp-symfony.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +52,14 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="getting-started" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -71,6 +109,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qHuxUJ5S9dZ3DKGm9fSu0DWOhI" />
@@ -97,29 +138,61 @@
       <updated>1616749082288</updated>
       <workItem from="1616749083402" duration="413000" />
       <workItem from="1616749551312" duration="1820000" />
+      <workItem from="1616751488244" duration="1395000" />
     </task>
+    <task id="LOCAL-00001" summary="Getting started">
+      <created>1616751514462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616751514462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Getting started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting started" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616749567152">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616749567152" />
-    <state x="659" y="431" key="NewPhpFileDialog" timestamp="1616750069404">
+    <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616752995205">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="659" y="431" key="NewPhpFileDialog/0.23.1680.955@0.23.1680.955" timestamp="1616750069404" />
+    <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.955@0.23.1680.955" timestamp="1616752995205" />
+    <state x="659" y="431" key="NewPhpFileDialog" timestamp="1616751948568">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="659" y="431" key="NewPhpFileDialog/0.23.1680.955@0.23.1680.955" timestamp="1616751948568" />
     <state x="341" y="139" key="SettingsEditor" timestamp="1616751466832">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616751466832" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1616751478131">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1616752917448">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616751478131" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616752917448" />
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616751787981">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616751787981" />
     <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616751461654">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
