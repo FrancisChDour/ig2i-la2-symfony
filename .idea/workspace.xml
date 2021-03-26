@@ -22,18 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tp-symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp-symfony.iml" afterDir="false" />
+    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="twig - HomeController + import template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,7 @@
       <updated>1616749082288</updated>
       <workItem from="1616749083402" duration="413000" />
       <workItem from="1616749551312" duration="1820000" />
-      <workItem from="1616751488244" duration="1395000" />
+      <workItem from="1616751488244" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1616751514462</created>
@@ -147,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616751514462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="twig - HomeController + import template">
+      <created>1616753292294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616753292294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting started" />
+    <MESSAGE value="twig - HomeController + import template" />
+    <option name="LAST_COMMIT_MESSAGE" value="twig - HomeController + import template" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616749567152">
@@ -189,10 +190,10 @@
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616752917448" />
-    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616751787981">
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616753297601">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616751787981" />
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616753297601" />
     <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616751461654">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
