@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="" />
+    <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="Fixtures + récuperation BDD">
+      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210326132043.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20210409144155.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +51,14 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="twig" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -68,19 +108,50 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qHuxUJ5S9dZ3DKGm9fSu0DWOhI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,29 +163,114 @@
       <option name="presentableId" value="Default" />
       <updated>1616749082288</updated>
       <workItem from="1616749083402" duration="413000" />
-      <workItem from="1616749551312" duration="1564000" />
+      <workItem from="1616749551312" duration="1820000" />
+      <workItem from="1616751488244" duration="7001000" />
     </task>
+    <task id="LOCAL-00001" summary="Getting started">
+      <created>1616751514462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616751514462</updated>
+    </task>
+    <task id="LOCAL-00002" summary="twig - HomeController + import template">
+      <created>1616753292294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616753292294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Générations des URLs">
+      <created>1616755236709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616755236709</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dynamisation de la page d’accueil">
+      <created>1616756689801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616756689801</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixtures + récuperation BDD">
+      <created>1616766872922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616766872922</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Uprate .gitignore">
+      <created>1617971843323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617971843323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Getting started" />
+    <MESSAGE value="twig - HomeController + import template" />
+    <MESSAGE value="Générations des URLs" />
+    <MESSAGE value="Dynamisation de la page d’accueil" />
+    <MESSAGE value="Fixtures + récuperation BDD" />
+    <MESSAGE value="Uprate .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uprate .gitignore" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616749567152">
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617976101368">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1617976101368" />
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616765355761" />
+    <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616752995205">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616749567152" />
-    <state x="659" y="431" key="NewPhpFileDialog" timestamp="1616750069404">
+    <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.955@0.23.1680.955" timestamp="1616752995205" />
+    <state x="578" y="262" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616765265631">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="659" y="431" key="NewPhpFileDialog/0.23.1680.955@0.23.1680.955" timestamp="1616750069404" />
-    <state x="341" y="139" key="SettingsEditor" timestamp="1616749599197">
+    <state x="578" y="262" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.955@0.23.1680.955" timestamp="1616765265631" />
+    <state x="659" y="431" key="NewPhpFileDialog" timestamp="1616755295454">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616749599197" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1616750161650">
+    <state x="659" y="431" key="NewPhpFileDialog/0.23.1680.955@0.23.1680.955" timestamp="1616755295454" />
+    <state x="341" y="139" key="SettingsEditor" timestamp="1616766059403">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616750161650" />
+    <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616766059403" />
+    <state width="500" height="444" key="SwitcherDM" timestamp="1617979819257">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="500" height="444" key="SwitcherDM/0.23.1680.952@0.23.1680.952" timestamp="1617979819257" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616767092389" />
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2" timestamp="1617971845034">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1617971845034" />
+    <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616766874704" />
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616766071901">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup/0.23.1680.955@0.23.1680.955" timestamp="1616766071901" />
   </component>
 </project>
