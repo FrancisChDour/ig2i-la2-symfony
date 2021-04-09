@@ -23,9 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ac222a-f5d6-4777-87b6-a151e14e4fb4" name="Default Changelist" comment="Fixtures + récuperation BDD">
+      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210326132043.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20210409144155.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,12 +136,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1qHuxUJ5S9dZ3DKGm9fSu0DWOhI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -190,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616766872922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Uprate .gitignore">
+      <created>1617971843323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617971843323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,19 +224,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Getting started" />
     <MESSAGE value="twig - HomeController + import template" />
     <MESSAGE value="Générations des URLs" />
     <MESSAGE value="Dynamisation de la page d’accueil" />
     <MESSAGE value="Fixtures + récuperation BDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixtures + récuperation BDD" />
+    <MESSAGE value="Uprate .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uprate .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616765355761">
-      <screen x="0" y="23" width="1680" height="955" />
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617976101368">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1617976101368" />
     <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1616765355761" />
     <state x="549" y="178" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616752995205">
       <screen x="0" y="23" width="1680" height="955" />
@@ -236,13 +258,15 @@
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="341" y="139" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1616766059403" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1616767092389">
-      <screen x="0" y="23" width="1680" height="955" />
+    <state width="500" height="444" key="SwitcherDM" timestamp="1617979819257">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
+    <state width="500" height="444" key="SwitcherDM/0.23.1680.952@0.23.1680.952" timestamp="1617979819257" />
     <state width="500" height="445" key="SwitcherDM/0.23.1680.955@0.23.1680.955" timestamp="1616767092389" />
-    <state x="440" y="227" key="Vcs.Push.Dialog.v2" timestamp="1616766874704">
-      <screen x="0" y="23" width="1680" height="955" />
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2" timestamp="1617971845034">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1617971845034" />
     <state x="440" y="227" key="Vcs.Push.Dialog.v2/0.23.1680.955@0.23.1680.955" timestamp="1616766874704" />
     <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1616766071901">
       <screen x="0" y="23" width="1680" height="955" />

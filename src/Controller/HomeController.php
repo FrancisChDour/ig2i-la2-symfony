@@ -23,4 +23,12 @@ class HomeController extends AbstractController
             'articles' => $articleRepository->findLast(4)
         ]);
     }
+
+    /**
+     * @Route("/hello/{name}", name="hello_name")
+     */
+    public function helloName($name)
+    {
+        return new Response('Hello ' . $name);
+    }
 }
